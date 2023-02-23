@@ -1,6 +1,6 @@
 function checkStringLength (line, checkedLength) {
 
-  if (line.length === checkedLength){
+  if (line.length <= checkedLength){
     return true;
   }
   return false;
